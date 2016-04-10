@@ -6,7 +6,7 @@
 
 Minimal Alpine Linux Docker container
 with `sshd` exposed and `rsync` installed.
-Based on (macropin/docker-sshd)[https://github.com/macropin/docker-sshd]
+Based on [macropin/docker-sshd](https://github.com/macropin/docker-sshd)
 by Andrew Cutler.
 
 ## Usage
