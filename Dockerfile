@@ -1,7 +1,5 @@
 FROM alpine:latest
 
-MAINTAINER Andrew Cutler <andrew@panubo.com>
-
 RUN apk update && \
     apk add bash git openssh rsync && \
     mkdir -p ~root/.ssh && chmod 700 ~root/.ssh/ && \
