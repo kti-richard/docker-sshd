@@ -1,5 +1,7 @@
 FROM alpine:3.3
 
+MAINTAINER Evan Sosenko <razorx@evansosenko.com>
+
 RUN apk update \
  && apk add bash git openssh rsync \
  && mkdir -p ~root/.ssh \
